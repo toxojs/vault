@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const ioc = require('@toxo/ioc');
+const { ioc } = require('@toxo/ioc');
 
 const logger = ioc.get('logger');
 
